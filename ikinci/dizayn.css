@@ -1,0 +1,55 @@
+
+body { 
+	background-color: rgb(200,300,50);
+	min-width: 700px;
+
+}	
+	
+
+.baslik {
+	color:blue;
+	font-family:Tahoma;
+	font-style:italic;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	float: middle;
+}
+
+.birinci {
+	float: left;
+	width: 80%;
+	height: 600px;
+	background-color: red;
+}
+
+.ikinci {
+	float: left; 
+	width: 20%;
+	height: 600px;
+	background-color: grey;
+}
+
+a {
+	color=#666;
+	text-decoration:none;
+}
+
+a:hover {
+	color=black;
+	text-decoration: underline;
+}
+
+.ikinci>ol,ul,dt,dd {
+	border: 2px solid red;
+}
+
+.baslik>ol>li {
+	display: inline;
+	padding-right: 15px;
+}
+
+tr>td[value="baslik"] {background-color:yellow;}
+
+tr:nth-child(even) {background-color:lightblue;}
